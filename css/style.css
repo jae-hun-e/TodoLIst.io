@@ -1,0 +1,59 @@
+body {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  border: 0px;
+  background-color: #f8fdff;
+}
+
+#clock {
+  font-family: Dotum, "돋움", Helvetica, "Apple SD Gothic Neo", sans-serif;
+}
+.hidden {
+  display: none;
+}
+
+#quote.container {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  width: 200px;
+}
+.quotes {
+  font-style: italic;
+  font-size: 1em;
+  font-weight: 400;
+  color: #f8fdff;
+}
+.author {
+  font-size: 0.8em;
+  color: #e6ffff;
+  font-weight: 300;
+}
+
+#weather.container {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
