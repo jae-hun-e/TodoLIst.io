@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
 }
 .center {
   display: flex;
@@ -43,13 +43,13 @@ input {
 .quotes {
   font-style: italic;
   font-size: 1em;
-  font-weight: 400;
+  font-weight: 600;
   color: #f8fdff;
 }
 .author {
   font-size: 0.8em;
-  color: #e6ffff;
-  font-weight: 300;
+  color: #240fdd;
+  font-weight: 500;
 }
 
 #weather.container {
